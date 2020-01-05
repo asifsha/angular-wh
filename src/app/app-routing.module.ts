@@ -5,6 +5,8 @@ import { DashboardComponent } from './components/dashboard/dashboard.component';
 import { RouteGuardComponent } from './components/route-guard/route-guard.component';
 import { AuthGuard } from './guards/auth/auth.guard';
 import { LoginComponent } from './components/login/login.component';
+import { PassingDataComponent } from './components/passing-data/passing-data.component';
+import { ReceivingDataComponent } from './components/receiving-data/receiving-data.component';
 
 
 const routes: Routes = [
@@ -20,7 +22,14 @@ const routes: Routes = [
   },
   {
     path: 'login', component: LoginComponent, 
+  },
+  {
+    path: 'passingData', component: PassingDataComponent, 
+  },
+  {
+    path: 'receivingData', component: ReceivingDataComponent, 
   }
+  
 ];
 
 @NgModule({
