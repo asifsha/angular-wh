@@ -1,0 +1,14 @@
+<nav>
+  <a routerLink="/dashboard">Back to Dashboard</a>
+</nav>
+<br />
+<br />
+
+<div>
+  Below input box is showing two way binding using input and output and the old
+  and new values are showing using ngOnChanges
+</div>
+<br />
+<app-text-input [(value)]="inputValue"></app-text-input>
+<br />
+<div>Value updated for parent : {{ inputValue }}</div>
