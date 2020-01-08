@@ -10,7 +10,6 @@ import { DashboardComponent } from './components/dashboard/dashboard.component';
 import { RouteGuardComponent } from './components/route-guard/route-guard.component';
 import { PassingDataComponent } from './components/passing-data/passing-data.component';
 import { PageAnimationComponent } from './components/page-animation/page-animation.component';
-import { NestedRouteComponent } from './components/nested-route/nested-route.component';
 import { InputValidationComponent } from './components/input-validation/input-validation.component';
 import { ContentUsageComponent } from './components/content-usage/content-usage.component';
 import { CurrencyFormatComponent } from './components/currency-format/currency-format.component';
@@ -28,8 +27,7 @@ import { CssanimationComponent } from './components/cssanimation/cssanimation.co
     DashboardComponent,
     RouteGuardComponent,
     PassingDataComponent,
-    PageAnimationComponent,
-    NestedRouteComponent,
+    PageAnimationComponent,    
     InputValidationComponent,
     ContentUsageComponent,
     CurrencyFormatComponent,

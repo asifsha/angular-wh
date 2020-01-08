@@ -10,6 +10,5 @@ export class NestedRouteComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
-  }
-
+  }  
 }
