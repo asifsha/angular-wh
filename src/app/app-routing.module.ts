@@ -10,6 +10,7 @@ import { ReceivingDataComponent } from "./components/receiving-data/receiving-da
 import { PageAnimationComponent } from "./components/page-animation/page-animation.component";
 import { CssanimationComponent } from './components/cssanimation/cssanimation.component';
 import { InputValidationComponent } from './components/input-validation/input-validation.component';
+import { ContentUsageComponent } from './components/content-usage/content-usage.component';
 
 const routes: Routes = [
   { path: "", redirectTo: "/dashboard", pathMatch: "full" },
@@ -49,6 +50,10 @@ const routes: Routes = [
   {
     path:"inputValidation",
     component :InputValidationComponent
+  },
+  {
+    path:"contentUsage",
+    component:ContentUsageComponent
   }
 ];
 
