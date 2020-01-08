@@ -1,1 +1,15 @@
-<p>input-validation works!</p>
+<div>
+  <div>
+    Enter a number greater than 10:
+    <input type="number" name="number" (blur)="validateNumber($event)" />
+    <div *ngIf="showNumberError" class="input-error">
+      Please enter a number greater than 10
+    </div>
+  </div>
+  <div>
+    Email address: <input type="email" name="email" (blur)="validateEmail($event)" />
+    <div *ngIf="showEmailError" class="input-error">
+      Please enter a valid Email address
+    </div>
+  </div>
+</div>
