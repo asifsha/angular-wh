@@ -8,6 +8,7 @@ import { LoginComponent } from "./components/login/login.component";
 import { PassingDataComponent } from "./components/passing-data/passing-data.component";
 import { ReceivingDataComponent } from "./components/receiving-data/receiving-data.component";
 import { PageAnimationComponent } from "./components/page-animation/page-animation.component";
+import { CssanimationComponent } from './components/cssanimation/cssanimation.component';
 
 const routes: Routes = [
   { path: "", redirectTo: "/dashboard", pathMatch: "full" },
@@ -39,6 +40,10 @@ const routes: Routes = [
     path: "pageAnimation",
     component: PageAnimationComponent,
     data: {animation: 'AnimationPage'}
+  },
+  {
+    path: "cssAnimation",
+    component: CssanimationComponent,   
   }
 ];
 

@@ -18,6 +18,7 @@ import { BindingPropertiesComponent } from './components/binding-properties/bind
 import { TextInputComponent } from './components/text-input/text-input.component';
 import { LoginComponent } from './components/login/login.component';
 import { ReceivingDataComponent } from './components/receiving-data/receiving-data.component';
+import { CssanimationComponent } from './components/cssanimation/cssanimation.component';
 
 
 @NgModule({
@@ -35,7 +36,8 @@ import { ReceivingDataComponent } from './components/receiving-data/receiving-da
     BindingPropertiesComponent,
     TextInputComponent,
     LoginComponent,
-    ReceivingDataComponent,     
+    ReceivingDataComponent,
+    CssanimationComponent,     
   ],
   imports: [
     BrowserModule,
