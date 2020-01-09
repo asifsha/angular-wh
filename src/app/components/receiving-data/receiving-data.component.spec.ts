@@ -1,6 +1,8 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
 import { ReceivingDataComponent } from './receiving-data.component';
+import { BackButtonComponent } from '../back-button/back-button.component';
+import { RouterTestingModule } from '@angular/router/testing';
 
 describe('ReceivingDataComponent', () => {
   let component: ReceivingDataComponent;
@@ -8,7 +10,8 @@ describe('ReceivingDataComponent', () => {
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ ReceivingDataComponent ]
+      declarations: [ ReceivingDataComponent, BackButtonComponent ],
+      imports:[RouterTestingModule]
     })
     .compileComponents();
   }));

@@ -13,14 +13,14 @@ export class InputValidationComponent implements OnInit {
 
   ngOnInit() {}
 
-  validateNumber(event) {
+  validateNumber(value) {
     this.showNumberError = false;
-    if (event.target.value <= 10) this.showNumberError = true;
+    if (value <= 10) this.showNumberError = true;
   }
 
-  validateEmail(event) {
+  validateEmail(value) {
     this.showEmailError = false;
-    if (!this.validateEmailAddress(event.target.value))
+    if (!this.validateEmailAddress(value))
       this.showEmailError = true;
   }
   validateEmailAddress(email) {

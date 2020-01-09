@@ -1,6 +1,7 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
 import { CssanimationComponent } from './cssanimation.component';
+import { BackButtonComponent } from '../back-button/back-button.component';
 
 describe('CssanimationComponent', () => {
   let component: CssanimationComponent;
@@ -8,7 +9,7 @@ describe('CssanimationComponent', () => {
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ CssanimationComponent ]
+      declarations: [ CssanimationComponent, BackButtonComponent ]
     })
     .compileComponents();
   }));

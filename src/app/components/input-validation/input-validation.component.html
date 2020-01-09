@@ -2,13 +2,13 @@
 <div>
   <div>
     Enter a number greater than 10:
-    <input type="number" name="number" (blur)="validateNumber($event)" />
+    <input #numberInput type="number" name="numberInput" (blur)="validateNumber($event.target.value)" />
     <div *ngIf="showNumberError" class="input-error">
       Please enter a number greater than 10
     </div>
   </div>
   <div>
-    Email address: <input type="email" name="email" (blur)="validateEmail($event)" />
+    Email address: <input #emailInput type="email" name="emailInput" (blur)="validateEmail($event.target.value)" />
     <div *ngIf="showEmailError" class="input-error">
       Please enter a valid Email address
     </div>

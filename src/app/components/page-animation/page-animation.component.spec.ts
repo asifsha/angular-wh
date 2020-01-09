@@ -1,6 +1,7 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
 import { PageAnimationComponent } from './page-animation.component';
+import { BackButtonComponent } from '../back-button/back-button.component';
 
 describe('PageAnimationComponent', () => {
   let component: PageAnimationComponent;
@@ -8,7 +9,7 @@ describe('PageAnimationComponent', () => {
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ PageAnimationComponent ]
+      declarations: [ PageAnimationComponent, BackButtonComponent ]
     })
     .compileComponents();
   }));
