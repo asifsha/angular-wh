@@ -21,6 +21,7 @@ import { CssanimationComponent } from "./components/cssanimation/cssanimation.co
 import { AddButtonComponent } from "./components/add-button/add-button.component";
 import { BackButtonComponent } from "./components/back-button/back-button.component";
 import { NumbersDirective } from './directives/numbers.directive';
+import { CounterComponent } from './components/counter/counter.component';
 
 @NgModule({
   declarations: [
@@ -40,7 +41,8 @@ import { NumbersDirective } from './directives/numbers.directive';
     CssanimationComponent,
     AddButtonComponent,
     BackButtonComponent,
-    NumbersDirective
+    NumbersDirective,
+    CounterComponent
   ],
   imports: [
     BrowserModule,

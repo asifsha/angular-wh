@@ -12,6 +12,7 @@ import { CssanimationComponent } from "./components/cssanimation/cssanimation.co
 import { InputValidationComponent } from "./components/input-validation/input-validation.component";
 import { ContentUsageComponent } from "./components/content-usage/content-usage.component";
 import { CurrencyFormatComponent } from "./components/currency-format/currency-format.component";
+import { BindingPropertiesComponent } from "./components/binding-properties/binding-properties.component";
 
 const routes: Routes = [
   { path: "", redirectTo: "/dashboard", pathMatch: "full" },
@@ -60,7 +61,8 @@ const routes: Routes = [
     path: "contentUsage",
     component: ContentUsageComponent
   },
-  { path: "currencyFormat", component: CurrencyFormatComponent }
+  { path: "currencyFormat", component: CurrencyFormatComponent },
+  { path: "bindingProperties", component: BindingPropertiesComponent }
 ];
 
 @NgModule({

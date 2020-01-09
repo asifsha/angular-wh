@@ -9,6 +9,7 @@ export class BindingPropertiesComponent implements OnInit {
 
   constructor() { }
 
+  counter= 10;
   ngOnInit() {
   }
 

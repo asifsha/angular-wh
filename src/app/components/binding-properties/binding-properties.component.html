@@ -1,2 +1,11 @@
 <app-back-button></app-back-button>
-<p>binding-properties works!</p>
+<p>Two way bindings</p>
+<input [(ngModel)]="counter" />
+<div>{{ counter }}</div>
+
+<p>Bindings using @Input()</p>
+<app-text-input [value]="counter"></app-text-input>
+
+
+<p>Bindings using name @Input()</p>
+<app-counter [counter]="counter"></app-counter>
