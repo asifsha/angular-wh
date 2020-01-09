@@ -8,14 +8,19 @@ import { LoginComponent } from "./components/login/login.component";
 import { PassingDataComponent } from "./components/passing-data/passing-data.component";
 import { ReceivingDataComponent } from "./components/receiving-data/receiving-data.component";
 import { PageAnimationComponent } from "./components/page-animation/page-animation.component";
-import { CssanimationComponent } from './components/cssanimation/cssanimation.component';
-import { InputValidationComponent } from './components/input-validation/input-validation.component';
-import { ContentUsageComponent } from './components/content-usage/content-usage.component';
+import { CssanimationComponent } from "./components/cssanimation/cssanimation.component";
+import { InputValidationComponent } from "./components/input-validation/input-validation.component";
+import { ContentUsageComponent } from "./components/content-usage/content-usage.component";
+import { CurrencyFormatComponent } from "./components/currency-format/currency-format.component";
 
 const routes: Routes = [
   { path: "", redirectTo: "/dashboard", pathMatch: "full" },
-  { path: "dashboard", component: DashboardComponent, data: {animation: 'DashboardPage'} },
-  { path: "changesInputOutput", component: ChangesInputOutputComponent, },
+  {
+    path: "dashboard",
+    component: DashboardComponent,
+    data: { animation: "DashboardPage" }
+  },
+  { path: "changesInputOutput", component: ChangesInputOutputComponent },
   {
     path: "settings",
     loadChildren: () =>
@@ -41,20 +46,21 @@ const routes: Routes = [
   {
     path: "pageAnimation",
     component: PageAnimationComponent,
-    data: {animation: 'AnimationPage'}
+    data: { animation: "AnimationPage" }
   },
   {
     path: "cssAnimation",
-    component: CssanimationComponent,   
+    component: CssanimationComponent
   },
   {
-    path:"inputValidation",
-    component :InputValidationComponent
+    path: "inputValidation",
+    component: InputValidationComponent
   },
   {
-    path:"contentUsage",
-    component:ContentUsageComponent
-  }
+    path: "contentUsage",
+    component: ContentUsageComponent
+  },
+  { path: "currencyFormat", component: CurrencyFormatComponent }
 ];
 
 @NgModule({

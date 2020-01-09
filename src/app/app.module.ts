@@ -20,6 +20,7 @@ import { ReceivingDataComponent } from "./components/receiving-data/receiving-da
 import { CssanimationComponent } from "./components/cssanimation/cssanimation.component";
 import { AddButtonComponent } from "./components/add-button/add-button.component";
 import { BackButtonComponent } from "./components/back-button/back-button.component";
+import { NumbersDirective } from './directives/numbers.directive';
 
 @NgModule({
   declarations: [
@@ -38,7 +39,8 @@ import { BackButtonComponent } from "./components/back-button/back-button.compon
     ReceivingDataComponent,
     CssanimationComponent,
     AddButtonComponent,
-    BackButtonComponent
+    BackButtonComponent,
+    NumbersDirective
   ],
   imports: [
     BrowserModule,
