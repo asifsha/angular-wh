@@ -13,6 +13,7 @@ import { InputValidationComponent } from "./components/input-validation/input-va
 import { ContentUsageComponent } from "./components/content-usage/content-usage.component";
 import { CurrencyFormatComponent } from "./components/currency-format/currency-format.component";
 import { BindingPropertiesComponent } from "./components/binding-properties/binding-properties.component";
+import { SlicingComponent } from './components/slicing/slicing.component';
 
 const routes: Routes = [
   { path: "", redirectTo: "/dashboard", pathMatch: "full" },
@@ -62,7 +63,8 @@ const routes: Routes = [
     component: ContentUsageComponent
   },
   { path: "currencyFormat", component: CurrencyFormatComponent },
-  { path: "bindingProperties", component: BindingPropertiesComponent }
+  { path: "bindingProperties", component: BindingPropertiesComponent },
+  { path: "slicing", component: SlicingComponent }
 ];
 
 @NgModule({

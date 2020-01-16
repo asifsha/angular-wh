@@ -22,6 +22,7 @@ import { AddButtonComponent } from "./components/add-button/add-button.component
 import { BackButtonComponent } from "./components/back-button/back-button.component";
 import { NumbersDirective } from './directives/numbers.directive';
 import { CounterComponent } from './components/counter/counter.component';
+import { SlicingComponent } from './components/slicing/slicing.component';
 
 @NgModule({
   declarations: [
@@ -42,7 +43,8 @@ import { CounterComponent } from './components/counter/counter.component';
     AddButtonComponent,
     BackButtonComponent,
     NumbersDirective,
-    CounterComponent
+    CounterComponent,
+    SlicingComponent
   ],
   imports: [
     BrowserModule,

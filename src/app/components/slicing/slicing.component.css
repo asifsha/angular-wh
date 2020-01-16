@@ -1,0 +1,110 @@
+@font-face {
+    font-family: ProximaNovaBold;
+    src: url('../../../assets/ProximaNova/ProximaNova-Bold.otf');
+  }
+
+  @font-face {
+    font-family: ProximaNovaLight;
+    src: url('../../../assets/ProximaNova/ProximaNova-Light.otf');
+  }
+
+  div{
+      font-family: ProximaNovaLight;
+  }
+
+.header{
+    height: 5em; background-color: #23123a;
+}
+.nav-ul {
+    list-style-type : none;
+    margin          : 0;
+    padding         : 0;
+    overflow        : hidden;
+    background-color: white;
+}
+
+.nav-li {
+    float: left;    
+}
+
+.nav-li a {
+    display        : block;
+    color          : black;
+    text-align     : center;
+    padding        : 14px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+.nav-li a:hover {
+    background-color: rgb(16, 73, 148);
+    color: white;
+}
+
+.panel-header {
+    background-color: #f2f2f2;
+    height          : 3em;
+    font-weight     : bold;
+    font-family: ProximaNovaBold;
+}
+
+.button-good {
+    background-color: #66ffe0;
+    border          : none;
+    color           : white;
+    padding         : 10px;
+    text-align      : center;
+    text-decoration : none;
+    display         : inline-block;
+    font-size       : 16px;
+    margin          : 4px 2px;
+    border-radius   : 40px;
+}
+
+.button-apply {
+    background-color: #ff944d;
+    border          : none;
+    color           : white;
+    padding         : 10px;
+    text-align      : center;
+    text-decoration : none;
+    display         : inline-block;
+    font-size       : 16px;
+    margin          : 4px 2px;
+    border-radius   : 5px;
+}
+
+.card-img {
+    float: left;
+    padding-right: 30px;
+}
+
+.card-inner-list {
+    padding: 10px;
+}
+
+.card-inner-list li{
+    padding-bottom: 10px;
+
+}
+
+.card-inner-list a{
+    color: blue;
+}
+
+.responsive {
+    width: 100%;
+    height: auto;
+  }
+
+  .botton-link{
+    text-decoration: none;
+  }
+
+  .botton-link a:link {
+    text-decoration: none;
+  }
+  
+  .botton-link a:visited {
+    text-decoration: none;
+  }
